@@ -1,0 +1,88 @@
+html, body {
+    background-color: hsl(47, 88%, 63%);
+    height: 60rem;
+    width: 90rem;
+    margin: 0;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+
+main {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 24rem;
+    height: 32.6rem;
+    padding: 1.40rem;
+    border-radius: 1.25rem;
+    border: solid 0.063rem hsl(0, 0%, 7%);
+    box-sizing: border-box;
+    box-shadow: 0.75rem 0.75rem 0 0 hsl(0, 0%, 7%);
+}
+
+.illustration-article {
+    width: 21rem;
+    height: 12.5rem;
+    border-radius: 0.62rem;
+    margin-bottom: 1.40rem;
+}
+
+.label {
+    font-size: 0.875rem;
+    font-weight: 800;
+    display: inline;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.21rem 0.75rem;
+    border-radius: 0.25rem;
+    line-height: 150%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.description {
+    font-size: 1rem;
+    color: hsl(0, 0%, 42%);
+    line-height: 150%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+}
+
+.name-author {
+    display: inline;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.attribution { font-size: 1rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
